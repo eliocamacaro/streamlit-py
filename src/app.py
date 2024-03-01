@@ -158,7 +158,7 @@ import streamlit as st
 from app import main
 
 def main_streamlit():
-    st.title("App de prueba en Streamlit")
+    st.title("El mundo te Hola")
     main()
 
 if __name__ == "__main__":
