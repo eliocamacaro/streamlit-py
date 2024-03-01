@@ -153,18 +153,3 @@ for movie, distance in recommendations:
 from pickle import dump
 
 dump(model, open("../models/knn_neighbors-6_algorithm-brute_metric-cosine.sav", "wb"))
-
-
-# In[24]:
-
-
-import streamlit as st
-from app import main
-
-def main_streamlit():
-    st.title("App de prueba en Streamlit")
-    main()
-
-if __name__ == "__main__":
-    main_streamlit()
-
