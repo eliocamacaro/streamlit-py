@@ -140,7 +140,7 @@ def recommend(movie):
     similar_movies = [(total_data["title"][i], distances[0][j]) for j, i in enumerate(indices[0])]
     return similar_movies[1:]
 
-input_movie = "Avatar"
+input_movie = input("Buenos dias estrellita, elige tu peli")
 recommendations = recommend(input_movie)
 print("Film recommendations '{}'".format(input_movie))
 for movie, distance in recommendations:
